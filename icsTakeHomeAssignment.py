@@ -11,17 +11,17 @@ inspection_scores = dataframe['inspection_score'] # section of the dataframe tha
 violation_description = dataframe['violation_description'] # 'array' of violation descriptions
 
 # statistic variables found with numpy functions
-min = nanmin(inspection_scores)
-max = nanmax(inspection_scores)
-mean = nanmean(inspection_scores)
-median = nanmedian(inspection_scores)
+min_score = nanmin(inspection_scores)
+max_score = nanmax(inspection_scores)
+mean_score = nanmean(inspection_scores)
+median_score = nanmedian(inspection_scores)
 
 # print out the dataset statistics w/ some small formatting
 print('\nDataset Statistics: ')
-print('MIN:    ', min)
-print('MAX:    ', max)
-print('MEAN:   ', mean)
-print('MEDIAN: ', median)
+print('MIN:    ', min_score)
+print('MAX:    ', max_score)
+print('MEAN:   ', mean_score)
+print('MEDIAN: ', median_score)
 print('\n')
 
 # calling .value_counts() on the array of violation descriptions will return a new set of the values, with the count of that value in the original array
