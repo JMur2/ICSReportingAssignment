@@ -17,7 +17,7 @@ mean_score = nanmean(inspection_scores)
 median_score = nanmedian(inspection_scores)
 
 # print out the dataset statistics w/ some small formatting
-print('\nDataset Statistics: ')
+print('\nReastaurant Inspection Score Statistics: ')
 print('MIN:    ', min_score)
 print('MAX:    ', max_score)
 print('MEAN:   ', mean_score)
